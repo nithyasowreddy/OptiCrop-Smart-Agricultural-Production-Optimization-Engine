@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OptiCrop | Smart Agricultural Production Optimization Engine</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        🌱 <span>OptiCrop</span>
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="{{ url_for('home') }}">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ url_for('about') }}">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ url_for('predict_page') }}">
+                Find Your Crop
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+{% block content %}
+{% endblock %}
+
+<footer>
+
+    <h3>
+        Smart Agricultural Production Optimization Engine
+    </h3>
+
+    <p>
+        Developed by
+        <strong>Sowreddy Nithya Reddy</strong>
+    </p>
+
+    <p>
+
+        📧
+
+        <a href="mailto:nithyasowreddy1113@gmail.com">
+
+            nithyasowreddy1113@gmail.com
+
+        </a>
+
+    </p>
+
+    <p>
+
+        <a href="https://github.com/nithyasowreddy" target="_blank">
+
+            GitHub
+
+        </a>
+
+        |
+
+        <a href="https://www.linkedin.com/in/nithya-reddy-s-91510832b/" target="_blank">
+
+            LinkedIn
+
+        </a>
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>

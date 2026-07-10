@@ -1,0 +1,348 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#07151F;
+    color:#fff;
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    padding:0 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(4,15,25,.85);
+    backdrop-filter:blur(12px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#7CFC00;
+}
+
+.logo span{
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#7CFC00;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:140px 10%;
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("../images/hero.png");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:68px;
+    font-weight:800;
+    line-height:1.15;
+}
+
+.hero span{
+    color:#7CFC00;
+}
+
+.hero p{
+    width:80%;
+    margin:30px auto;
+    font-size:22px;
+    color:#ddd;
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.btn{
+    display:inline-block;
+    padding:15px 40px;
+    margin-top:20px;
+    background:#7CFC00;
+    color:#07151F;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 25px #7CFC00;
+}
+
+/* ==========================
+   COMMON SECTION
+========================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:120px 0 80px;
+}
+
+.container h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:45px;
+}
+
+.container p{
+    font-size:19px;
+    color:#ddd;
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#132230;
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(124,252,0,.3);
+}
+
+.card h3{
+    font-size:34px;
+    color:#7CFC00;
+    margin-bottom:12px;
+}
+
+.card p{
+    font-size:18px;
+}
+
+/* ==========================
+   ABOUT IMAGE
+========================== */
+
+.about-img{
+    width:100%;
+    max-width:900px;
+    display:block;
+    margin:45px auto;
+    border-radius:20px;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.form-container{
+    width:95%;
+    max-width:700px;
+    margin:140px auto 80px;
+    background:#132230;
+    padding:45px;
+    border-radius:20px;
+}
+
+.form-container h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:36px;
+}
+
+.form-group{
+    margin-bottom:22px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-size:18px;
+}
+
+.form-group input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+}
+
+/* ==========================
+   RESULT
+========================== */
+
+.result-box{
+    width:95%;
+    max-width:700px;
+    margin:150px auto;
+    padding:45px;
+    background:#132230;
+    border-radius:20px;
+    text-align:center;
+}
+
+.result-box h1{
+    font-size:40px;
+    color:#7CFC00;
+    margin-bottom:20px;
+}
+
+.result-box p{
+    font-size:24px;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    background:#041018;
+    text-align:center;
+    padding:45px 20px;
+}
+
+footer h3{
+    color:#7CFC00;
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:10px 0;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#7CFC00;
+}
+/* ==========================
+   ABOUT PAGE
+========================== */
+
+.about-section{
+    width:90%;
+    max-width:1100px;
+    margin:140px auto 80px;
+}
+
+.about-card{
+    background:#132230;
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.about-card h1{
+    font-size:42px;
+    color:#7CFC00;
+    margin-bottom:25px;
+}
+
+.about-card p{
+    font-size:20px;
+    color:#ddd;
+    line-height:1.9;
+}
+
+/* ==========================
+   PREDICT PAGE
+========================== */
+
+.predict-section{
+    padding-top:40px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.form-container button{
+    width:100%;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+}
+
+/* ==========================
+   RESULT PAGE
+========================== */
+
+.result-section{
+    padding-top:40px;
+}
+
+.result-box h2{
+    margin:20px 0;
+    font-size:34px;
+    color:white;
+}
