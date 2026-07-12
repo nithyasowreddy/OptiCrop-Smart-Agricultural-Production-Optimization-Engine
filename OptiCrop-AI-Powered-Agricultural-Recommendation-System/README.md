@@ -52,7 +52,7 @@ and predicts the most suitable crop for cultivation using Machine Learning algor
 # 🛠️ Technologies Used
 
 ## Programming Language
-- Python 3
+- Python 3.10
 
 ## Machine Learning Libraries
 - Scikit-learn
@@ -82,18 +82,73 @@ The best-performing model was integrated into the Flask application.
 
 ---
 
+# 🏗️ System Architecture
+
+```text
+User Input
+     ↓
+Flask Web Interface
+     ↓
+Data Processing
+     ↓
+Machine Learning Model
+     ↓
+Crop Recommendation Result
+```
+
+---
+
+# 📊 Dataset Information
+
+Dataset Name: Crop Recommendation Dataset
+
+### Input Features
+
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature
+- Humidity
+- pH
+- Rainfall
+
+### Target Variable
+
+- Recommended Crop Label
+
+---
+
 # 📂 Project Structure
 
 ```text
-OptiCrop-AI-Powered-Agricultural-Recommendation-System
+OptiCrop-Smart-Agricultural-Production-Optimization-Engine/
 
 ├── dataset/
+│   └── Crop_recommendation.csv
+
 ├── documentation/
+
 ├── models/
+│   └── model.pkl
+
 ├── notebooks/
+
 ├── screenshots/
+│   ├── 1ahome.png
+│   ├── 2about.png
+│   ├── 3prediction_form.png
+│   └── 4prediction_result.png
+
 ├── static/
+
 ├── templates/
+│   ├── index.html
+│   ├── about.html
+│   ├── predict.html
+│   ├── result.html
+│   ├── analytics.html
+│   └── team.html
+
 ├── testing/
 
 ├── app.py
@@ -124,7 +179,7 @@ OptiCrop-AI-Powered-Agricultural-Recommendation-System
 
 The system predicts and recommends the most suitable crop based on the provided parameters.
 
-### Example
+### Example Output
 
 ```text
 Recommended Crop:
@@ -138,11 +193,12 @@ Rice
 1. Data Collection
 2. Data Preprocessing
 3. Exploratory Data Analysis
-4. Model Training
-5. Model Evaluation
-6. Model Saving
-7. Flask Web Integration
-8. Crop Prediction
+4. Feature Engineering
+5. Model Training
+6. Model Evaluation
+7. Model Saving
+8. Flask Web Integration
+9. Crop Prediction
 
 ---
 
@@ -157,10 +213,10 @@ git clone https://github.com/nithyasowreddy/OptiCrop-Smart-Agricultural-Producti
 ## Navigate to Project Folder
 
 ```bash
-cd OptiCrop-AI-Powered-Agricultural-Recommendation-System
+cd OptiCrop-Smart-Agricultural-Production-Optimization-Engine
 ```
 
-## Install Required Packages
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -186,6 +242,10 @@ http://127.0.0.1:5000/
 
 ![Home](screenshots/1ahome.png)
 
+## ℹ️ About Page
+
+![About](screenshots/2about.png)
+
 ## 🌱 Prediction Form
 
 ![Prediction](screenshots/3prediction_form.png)
@@ -194,29 +254,26 @@ http://127.0.0.1:5000/
 
 ![Result](screenshots/4prediction_result.png)
 
-## ℹ️ About Page
-
-![About](screenshots/2about.png)
-
 ---
 
 # 🔗 Project Links
 
 ## GitHub Repository
 
-https://github.com/nithyasowreddy/OptiCrop-Smart-Agricultural-Production-Optimization-Engine
+[View GitHub Repository](https://github.com/nithyasowreddy/OptiCrop-Smart-Agricultural-Production-Optimization-Engine)
 
 ## Demo Video
 
-https://drive.google.com/file/d/16D96tPqICBeCJNGgZuPgQ4P_guz7yTa5/view
+[Watch Demo Video](https://drive.google.com/file/d/16D96tPqICBeCJNGgZuPgQ4P_guz7yTa5/view)
 
 ---
 
 # 🌐 Deployment Status
 
-Currently, the application runs locally using Flask.
+Currently the application runs locally using Flask.
 
 ```text
+Local URL:
 http://127.0.0.1:5000/
 ```
 
@@ -240,9 +297,9 @@ http://127.0.0.1:5000/
 
 This project was developed as part of the:
 
-**APSCHE Artificial Intelligence & Machine Learning Virtual Internship Program**
+### APSCHE Artificial Intelligence & Machine Learning Virtual Internship Program
 
-Powered by:
+Supported By:
 
 - APSCHE
 - SmartInternz
