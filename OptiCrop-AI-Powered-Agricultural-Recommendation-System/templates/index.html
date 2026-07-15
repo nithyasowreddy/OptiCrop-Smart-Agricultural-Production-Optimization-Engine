@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section class="hero">
+
+    <div>
+
+        <h1>
+            Smart Agricultural
+            <br>
+            <span>Production Optimization Engine</span>
+        </h1>
+
+        <p>
+            OptiCrop is an AI-powered crop recommendation system that predicts
+            the best crop based on soil nutrients and environmental conditions.
+            Improve productivity using Machine Learning and data-driven farming.
+        </p>
+
+        <a href="{{ url_for('predict_page') }}" class="btn">
+            🌱 Start Prediction
+        </a>
+
+    </div>
+
+</section>
+
+<section class="container">
+
+    <h2 style="text-align:center;margin-bottom:40px;font-size:40px;">
+        Project Statistics
+    </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>99.3%</h3>
+            <p>Prediction Accuracy</p>
+        </div>
+
+        <div class="card">
+            <h3>2200+</h3>
+            <p>Training Samples</p>
+        </div>
+
+        <div class="card">
+            <h3>22</h3>
+            <p>Crop Types</p>
+        </div>
+
+        <div class="card">
+            <h3>4</h3>
+            <p>ML Algorithms Tested</p>
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
