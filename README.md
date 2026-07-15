@@ -1,154 +1,184 @@
-# 🌱 OptiCrop – AI-Powered Agricultural Recommendation System
-
+# 🌾 OptiCrop
 ## Smart Agricultural Production Optimization Engine
 
-OptiCrop is a Machine Learning-based web application that recommends the most suitable crop for cultivation based on soil nutrients and environmental conditions. The system helps farmers make data-driven decisions to improve agricultural productivity and sustainability.
+<p align="center">
 
-The application uses trained Machine Learning models to analyze soil and climate parameters and predict the best crop for cultivation.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![License](https://img.shields.io/badge/APSCHE-AI%20%26%20ML-green)
 
----
-
-# 🎯 Objectives
-
-- Recommend suitable crops based on soil and environmental conditions.
-- Improve agricultural productivity using Machine Learning.
-- Assist farmers in making data-driven decisions.
-- Promote sustainable farming practices.
-- Demonstrate practical applications of AI in agriculture.
+</p>
 
 ---
 
-# 🚀 Features
+## 📌 Project Overview
 
-- Crop recommendation using Machine Learning
-- User-friendly web interface built with Flask
-- Predicts crops based on:
-  - Nitrogen (N)
-  - Phosphorus (P)
-  - Potassium (K)
-  - Temperature
-  - Humidity
-  - Soil pH
-  - Rainfall
-- Input validation for secure predictions
-- Responsive and attractive user interface
-- Fast prediction using trained ML models
-- Simple and easy-to-use application
+OptiCrop is an AI-powered agricultural recommendation system developed to assist farmers in selecting the most suitable crop based on soil nutrients and environmental conditions.
+
+The system utilizes Machine Learning algorithms to analyze agricultural parameters and provide intelligent crop recommendations that help improve productivity, reduce resource wastage, and promote sustainable farming practices.
 
 ---
 
-# 🛠️ Technologies Used
+## 🎯 Problem Statement
 
-## Programming Language
-- Python 3
+Agriculture is highly dependent on soil quality and climatic conditions. Farmers often face difficulties in determining which crop is best suited for cultivation under varying environmental conditions.
 
-## Machine Learning
-- Scikit-learn
-- Pandas
-- NumPy
+OptiCrop addresses this challenge by applying Artificial Intelligence and Machine Learning techniques to recommend optimal crops using data-driven decision making.
 
-## Web Framework
-- Flask
+---
 
-## Frontend
+# 🌱 Input Parameters
+
+The system analyzes:
+
+✅ Nitrogen (N)
+
+✅ Phosphorous (P)
+
+✅ Potassium (K)
+
+✅ Temperature
+
+✅ Humidity
+
+✅ pH Value
+
+✅ Rainfall
+
+---
+
+# 🚀 Key Features
+
+- 🌾 AI-Based Crop Recommendation
+- 🤖 Multiple Machine Learning Models
+- 📊 Agricultural Data Analytics Dashboard
+- 📈 Data Visualization
+- 🌐 Interactive Flask Web Application
+- 📱 Responsive User Interface
+- ⚡ Real-Time Prediction System
+- 🌍 Sustainable Farming Support
+
+---
+
+# 🧠 Machine Learning Models Used
+
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-Nearest Neighbors (KNN)
+- K-Means Clustering
+
+Among these models, the best-performing model was selected and deployed.
+
+---
+
+# 🛠️ Technology Stack
+
+## Programming Languages
+- Python
 - HTML5
 - CSS3
+- JavaScript
+
+## Libraries
+- Scikit-Learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Frameworks
+- Flask
 - Bootstrap
-- Jinja2 Templates
+
+## Tools
+- VS Code
+- Jupyter Notebook
+- Git
+- GitHub
 
 ---
 
 # 📂 Project Structure
 
 ```text
-OptiCrop-AI-Powered-Agricultural-Recommendation-System
-│
-├── backend/
-├── dataset/
-├── documentation/
-├── models/
-│   └── model.pkl
-│
-├── notebooks/
-├── screenshots/
-├── static/
-│
-├── templates/
-│   ├── index.html
-│   ├── about.html
-│   ├── predict.html
-│   ├── result.html
-│   ├── analytics.html
-│   └── team.html
-│
-├── testing/
+OptiCrop-Smart-Agricultural-Production-Optimization-Engine
 │
 ├── app.py
 ├── train_model.py
 ├── predict.py
 ├── utils.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+│
+├── dataset/
+├── models/
+├── notebooks/
+├── templates/
+├── static/
+├── screenshots/
+├── documentation/
+└── README.md
 ```
 
 ---
 
-# 📥 Input Parameters
+# 📊 Machine Learning Workflow
 
-| Parameter | Description |
-|------------|-------------|
-| Nitrogen (N) | Nitrogen level in soil |
-| Phosphorus (P) | Phosphorus level in soil |
-| Potassium (K) | Potassium level in soil |
-| Temperature | Temperature (°C) |
-| Humidity | Relative Humidity (%) |
-| Soil pH | Soil acidity/alkalinity |
-| Rainfall | Rainfall (mm) |
+1️⃣ Problem Understanding
 
----
+2️⃣ Dataset Collection
 
-# 📤 Output
+3️⃣ Exploratory Data Analysis
 
-The system predicts and recommends the most suitable crop based on the provided soil and environmental conditions.
+4️⃣ Data Preprocessing
 
-### Example
+5️⃣ Model Building
 
-```text
-Recommended Crop:
-Maize
-```
+6️⃣ Model Evaluation
+
+7️⃣ Model Deployment
+
+8️⃣ Crop Recommendation
 
 ---
 
-# 🤖 Machine Learning Workflow
+# 📸 Application Screenshots
 
-1. Data Collection
-2. Data Preprocessing
-3. Exploratory Data Analysis
-4. Model Training
-5. Model Evaluation
-6. Model Saving
-7. Flask Web Integration
-8. Crop Prediction
+## 🏠 Home Page
+
+![Home](screenshots/1ahome.png)
 
 ---
 
-# ⚙️ Installation & Execution
+## ℹ️ About Page
+
+![About](screenshots/2about.png)
+
+---
+
+## 🌱 Prediction Form
+
+![Prediction](screenshots/3prediction_form.png)
+
+---
+
+## ✅ Prediction Result
+
+![Result](screenshots/4prediction_result.png)
+
+---
+
+# ⚙️ Installation
 
 ## Clone Repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/nithyasowreddy/OptiCrop-Smart-Agricultural-Production-Optimization-Engine.git
 ```
 
-## Navigate to Project Folder
-
-```bash
-cd OptiCrop-AI-Powered-Agricultural-Recommendation-System
-```
-
-## Install Required Packages
+## Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -160,56 +190,39 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Open Browser
+Application runs at:
 
 ```text
-http://127.0.0.1:5000/
+http://127.0.0.1:5000
 ```
 
 ---
 
-# 📷 Project Screenshots
+# 🎥 Project Demonstration
 
-## 🏠 Home Page
+## Demo Video
 
-![Home](screenshots/1ahome.png)
-
-## 🌱 Prediction Form
-
-![Prediction](screenshots/3prediction_form.png)
-
-## ✅ Prediction Result
-
-![Result](screenshots/4prediction_result.png)
-
-## ℹ️ About Page
-
-![About](screenshots/2about.png)
+🔗 https://drive.google.com/file/d/16D96tPqICBeCJNGgZuPgQ4P_guz7yTa5/view
 
 ---
 
-# 🔮 Future Enhancements
+# 🌍 Future Enhancements
 
-- Fertilizer Recommendation System
-- Crop Disease Detection using Deep Learning
 - Weather API Integration
-- Crop Yield Prediction
-- Multi-language Support
+- Fertilizer Recommendation System
+- Disease Prediction System
 - Mobile Application Development
-- Real-Time Agricultural Dashboard
+- Multi-language Support
 - Cloud Deployment
 
 ---
 
-# 🎓 Internship Information
+# 👩‍💻 Team Members
 
-This project was developed as part of the APSCHE Artificial Intelligence & Machine Learning Virtual Internship Program.
+### Team Lead
+👩‍💻 Sowreddy Nithya Reddy
 
----
-
-# 👨‍💻 Team Members
-
-- Sowreddy Nithya Reddy (Team Lead)
+### Team Members
 - Navya Sri Pavuluri
 - Perugu Jagan Pooja
 - Rishitha Pigili
@@ -217,28 +230,26 @@ This project was developed as part of the APSCHE Artificial Intelligence & Machi
 
 ---
 
-# 📌 Conclusion
+# 🎓 APSCHE Internship Project
 
-OptiCrop combines Machine Learning and web technologies to provide an intelligent crop recommendation system. By analyzing soil nutrients and environmental conditions, the application assists farmers in selecting suitable crops, improving productivity, and promoting sustainable agriculture.
+This project was developed as part of the:
+
+**APSCHE Artificial Intelligence & Machine Learning Virtual Internship Program**
 
 ---
 
-# 👩‍💻 Developed By
+# 🔗 Repository Link
 
-**Sowreddy Nithya Reddy and Team**
-
-Smart Agricultural Production Optimization Engine (OptiCrop)
-
-APSCHE AI & ML Virtual Internship Project
+https://github.com/nithyasowreddy/OptiCrop-Smart-Agricultural-Production-Optimization-Engine
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving this repository a ⭐ Star.
+If you found this project useful, please consider giving this repository a ⭐ on GitHub.
 
 ---
 
-## 📄 License
-
-This project is developed for educational and academic purposes.
+<p align="center">
+Made with ❤️ for Smart Agriculture and Sustainable Farming
+</p>
